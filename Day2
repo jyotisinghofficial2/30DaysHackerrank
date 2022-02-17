@@ -1,0 +1,26 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+    
+    int i1 ;
+     cin>>i1; cout<<i+i1<<std::endl;
+              
+     double d1 ;
+     cin>>d1;
+     double dx = d+d1;
+     std::cout << std::fixed << std::setprecision(1) << dx; 
+     cout<<endl;            
+       string b;
+      cin.ignore();
+           getline(std::cin, b);
+                 cout<<s+b;
+                  return 0;
+}
+                                    
